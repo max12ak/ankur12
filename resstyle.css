@@ -1,0 +1,39 @@
+body {
+  background-color: #090040;
+}
+
+a {
+  color: #ffffff;
+}
+.red-heading {
+  text-align: lef;
+}
+h2 {
+  text-align: right;
+  color: #ffffff;
+}
+.image {
+  width: 40%;
+}
+
+.text {
+  width: 50%;
+  font-size: 18px;
+}
+.container {
+     display: flex;
+        align-items: center;
+}
+h1{
+  color: #ffffff;
+  text-align: center;
+  font-family: Cinzel Decorative;
+}
+body {
+    background-image: url(night-background.jpg); /* 👈 Corrected */
+    background-size: cover;                      /* Full screen pe fit ho jayegi */
+    background-repeat: no-repeat;                /* Repeat nahi karegi */
+    background-position: center;                 /* Center me dikhayegi */
+    height: 100vh;                               /* Full screen height le */
+    margin: 0;
+  }
